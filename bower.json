@@ -1,0 +1,30 @@
+{
+  "name": "tag-jam-10",
+  "version": "0.0.0",
+  "authors": [
+    "mjeffery <michael.jeffery@gmail.com>"
+  ],
+  "description": "HTML5 Gmae for TAGjam#10 \"broccoli,\" \"flawed,\" \"sacrifice\"",
+  "main": "index.html",
+  "keywords": [
+    "Phaser",
+    "html5",
+    "game",
+    "TAG10",
+    "gamejam"
+  ],
+  "license": "none",
+  "homepage": "mjeffery.github.io/tag-jam-10",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "phaser-official": "~2.0.4",
+    "lodash": "~2.4.1"
+  }
+}
