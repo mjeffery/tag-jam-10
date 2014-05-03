@@ -3,10 +3,10 @@
 
 	Preload.prototype = {
 		preload: function() {
-			var load = this.load,
-				bar = this.add.sprite(0, 0, 'loading-bar');
+			this.add.sprite(170, 250, 'loading-bar-bg');
 
-			this.add.sprite(0, 0, 'loading-bar-overlay');
+			var load = this.load,
+				bar = this.add.sprite(170, 250, 'loading-bar');
 
 			// PRELOAD ASSETS HERE
 
