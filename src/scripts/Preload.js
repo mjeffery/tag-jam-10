@@ -9,7 +9,9 @@
 				bar = this.add.sprite(170, 250, 'loading-bar');
 
 			// PRELOAD ASSETS HERE
-
+			Game.preload(load);
+			Player.preload(load);
+			
 			load.setPreloadSprite(bar);
 			load.onLoadComplete.addOnce(this.onLoadComplete, this);
 		},
